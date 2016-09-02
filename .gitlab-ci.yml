@@ -1,0 +1,7 @@
+image: microsoft/dotnet:1.0.0-preview2-sdk
+test:
+    script:
+    - uname -a
+    - dotnet --version
+    - dotnet restore
+    - dotnet test test/Aodag.Todolist.Test/
