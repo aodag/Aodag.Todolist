@@ -1,2 +1,4 @@
 build_script:
-    - ps: ./build.ps1
+    - ps: ./build.ps1 -T Build
+test_script:
+    - ps: ./build.ps1 -T Test
